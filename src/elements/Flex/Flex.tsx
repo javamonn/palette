@@ -54,7 +54,9 @@ export interface FlexProps
     PositionProps,
     BottomProps,
     ZIndexProps {
+  // Pick<HTMLAttributes<HTMLDivElement>, "style"> {
   flexGrow?: number | string
+  // style?: any
 }
 
 /**

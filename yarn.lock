@@ -1313,7 +1313,7 @@
   resolved "https://registry.yarnpkg.com/@types/jest/-/jest-23.3.2.tgz#07b90f6adf75d42c34230c026a2529e56c249dbb"
   integrity sha512-D1xlXHZpDonVX+VJ28XtcD5xlu8ex6Fc4cQNnrm2wJvlQnbec9RedhCrhQr6kRAE9XWHSec+JPuTmqJ9jC0qsA==
 
-"@types/node@*", "@types/node@^10.3.0":
+"@types/node@*":
   version "10.9.4"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-10.9.4.tgz#0f4cb2dc7c1de6096055357f70179043c33e9897"
   integrity sha512-fCHV45gS+m3hH17zgkgADUSi2RR1Vht6wOZ0jyHP8rjiQra9f+mIcgwPQHllmDocYOstIEbKlxbFDYlgrTPYqw==
@@ -1323,6 +1323,14 @@
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.5.5.tgz#17038dd322c2325f5da650a94d5f9974943625e3"
   integrity sha512-mOrlCEdwX3seT3n0AXNt4KNPAZZxcsABUHwBgFXOt+nvFUXkxCAO6UBJHPrDxWEa2KDMil86355fjo8jbZ+K0Q==
   dependencies:
+    "@types/react" "*"
+
+"@types/react-native@^0.57.11":
+  version "0.57.11"
+  resolved "https://registry.yarnpkg.com/@types/react-native/-/react-native-0.57.11.tgz#fde3b7ed48020d5ce40026f9c8dfa3664e4c35b5"
+  integrity sha512-pGHgaaap4O1khqJB1Kfn0yUGwXDc/DLvVvqvWw9Ndw4MUi24ysp6QiVwilLzIUUnnnRQMDrAdWrwPLfeOuussA==
+  dependencies:
+    "@types/prop-types" "*"
     "@types/react" "*"
 
 "@types/react-test-renderer@^16.0.1":
